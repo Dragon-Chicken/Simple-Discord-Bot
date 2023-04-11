@@ -1,11 +1,8 @@
 import random
 import jokes
-import brainfuck_interpreter as bf
 
 def get_response(message: str) -> str:
     p_message = message.lower()
-
-    print(bf.bf_input)
 
     if p_message[0] == '!':
 
@@ -25,10 +22,6 @@ def get_response(message: str) -> str:
                    '`.` Prints out what is at the current cell\n`*` multiplys the current cell by 2\n`/` divides the current cell by 2\n' \
                    'Here is a short program that prints 255 4 times  \n`-.>-.>-.>-.`\n' \
                    'Use `!brainfk` to run the code'
-
-        if p_message[:7] == 'brainfk':
-            #p_message = p_message.replace('`', '')
-            return bf.run_code(p_message[7:])
 
         if p_message[:5] == 'say `' and p_message[len(p_message)-1] == '`':
             message = message.replace('`', '')
