@@ -1,6 +1,4 @@
 
-bf_input = None
-
 def run_code(code):
 
     tape = [0]
