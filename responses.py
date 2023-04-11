@@ -7,11 +7,6 @@ def get_response(message: str) -> str:
 
     print(bf.bf_input)
 
-    if bf.bf_input == 1:
-        print('PLZ WORK2')
-        return 'you said'
-        bf.bf_input = 0
-
     if p_message[0] == '!':
 
         p_message = p_message[1:]
