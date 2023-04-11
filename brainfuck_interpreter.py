@@ -36,11 +36,6 @@ def run_code(code):
         elif code[code_index] == '/':
             tape[tape_index] = int(tape[tape_index] / 2)
 
-        elif code[code_index] == ',':
-            print('PLZ WORK')
-            bf_input = 1
-            print(bf_input)
-
         while tape[tape_index] > 255:
             tape[tape_index] -= 255
 
