@@ -13,11 +13,10 @@ OR CHANGE IT IN THE "bot.py" FILE IN LINE 31 TO THE CHANNEL YOU WANT IT IN
 ![image](https://user-images.githubusercontent.com/70321204/231113817-1ef2e7f5-2d6b-4b24-8dbf-cf4f53eff73a.png)
 
 # What can it do
-1. Has a BrainF**k interpreter
-2. Tells jokes
-3. Says hello
-4. Rolls a dice
-5. Says whatever you want it to
+1. Tells jokes
+2. Says hello
+3. Rolls a dice
+4. Says whatever you want it to
 
 # Commands
 !roll -- rolls a dice
@@ -25,8 +24,6 @@ OR CHANGE IT IN THE "bot.py" FILE IN LINE 31 TO THE CHANNEL YOU WANT IT IN
 !say --whatever you want in "`"
 
 !joke --tells a joke
-
-!brainfk --for the BrainF**k interpreter
 
 # How to use
 Simply download all files and put them in the same folder
