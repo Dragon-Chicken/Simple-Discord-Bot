@@ -22,7 +22,11 @@ OR CHANGE IT IN THE "bot.py" FILE IN LINE 31 TO THE CHANNEL YOU WANT IT IN
 # Commands
 !roll -- rolls a dice
 
-!say ``(what ever you want in here)``
+!say --whatever you want in "`"
+
+!joke --tells a joke
+
+!brainfk --for the BrainF**k interpreter
 
 # How to use
 Simply download all files and put them in the same folder
